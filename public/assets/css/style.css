@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2? family= Bree+Serif & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
+
+/* body{
+    font-family: 'Bree Serif', serif;
+    font-family: 'Averia Serif Libre', cursive;
+} */
+
+/* Navbar */
+.nav-item{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Bree Serif', serif;
+	font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-link a{
+	margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Bree Serif', serif;
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.scroll-nav-active{
+	background-color: white;
+	box-shadow: 1px 1px 11px -1px rgba(1,1,1,0.08);
+}
+
+/* button login */
+.btn-danger{
+    padding: 10px 35px;
+    color: white;
+	background-color: rgb(232, 28, 28);
+    font-family: 'Averia Serif Libre', cursive;
+	border-radius: 15px;
+	border: none;
+
+}
+
+#hero {
+    background-image: url("../images/il-photo-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	width: 100%;
+    height: 650px;
+	/* filter: brightness(0.8); */
+}
+
+.hero-title{
+    padding-top: 250px;
+}
+
+.hero-title h1{
+    font-family: 'Averia Serif Libre', cursive;
+    overflow: hidden;
+	font-size: 48px;
+	font-weight: 600;
+	-ms-text-shadow:7px 7px 6px rgba(0,0,0,0.25);
+	-o-text-shadow:7px 7px 6px rgba(0,0,0,0.25);
+	-webkit-text-shadow:7px 7px 6px rgba(0,0,0,0.25);
+	-moz-text-shadow:7px 7px 6px rgba(0,0,0,0.25);
+	text-shadow:7px 7px 6px rgba(0,0,0,0.25);
+	color:#3E3225;
+}
+
+.hero-title h5{
+	font-family: Averia Serif Libre;
+	font-size: 20px;
+	color:#3E3225;
+}
+
+
+/* penawaran program */
+.card{
+	border-radius: 4px;
+	border: 8px solid #9e6333;
+	box-shadow:4px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+.card-body h5{
+	font-family: 'Bree Serif', serif;
+	font-size: 16px;
+	color:#D58F3D;
+}
+
+/* berita */
+ 
+
+/*galeri */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+  }
+
+/* sekilas info */
+.stripe{
+	height: 5px;
+	width: 40px;
+	background-color: #EF9344;
+}
+
+.header-bab{
+	font-family: 'Bree Serif', serif;
+	color:#D58F3D;
+}
+
+.nav-download{
+	font-family: 'Bree Serif', serif;
+	color:#2522e4;
+	font-size: 18px;
+}
+
+/* video */
+#video{
+	background-image: url("../images/il-bg-tentang.svg");
+	height: 80%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.videoMeta h2{
+	overflow: hidden;
+	text-align: left;
+	-ms-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	color:#FFFFFF;
+}
+
+.certificate-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin: 50px auto;
+	padding: 10px;
+	max-width: 1200px;
+}
+
+.certificate {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+	width: 250px;
+}
+
+.certificate:hover {
+	transform: scale(1.05);
+}
+
+.certificate img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.certificate-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.certificate {
+		width: 100%;
+	}
+}
+/* video */
+
+
+/* media partner */
+#media{
+	justify-content: center;
+	align-items: center;
+}
+/* media partner */
+
+/* tim */
+.team-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.team-member {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	width: 250px;
+	transition: transform 0.3s;
+}
+
+.team-member:hover {
+	transform: scale(1.05);
+}
+
+.team-member img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.team-member h3 {
+	margin: 10px 0;
+	font-size: 18px;
+	color: #333;
+}
+
+.team-member p {
+	font-size: 16px;
+	color: #666;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.social-icons a {
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 20px;
+	color: #333;
+	transition: color 0.3s;
+}
+
+.social-icons a:hover {
+	color: #007bff;
+}
+
+.social-icons i {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.team-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.team-member {
+		width: 100%;
+		max-width: 250px;
+	}
+}
+/* tim */
+
+/*---------- SLIDE ANIMATION --------------*/
+
+
+/* ---------------------informasi paten ------------------------ */
+h2{
+	overflow: hidden;
+	font-family: Averia Serif Libre;
+	font-size: 32px;
+	-ms-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	text-shadow:4px 4px 3px rgba(0,0,0,0.25);
+	/* color:#924224; */
+}
+
+h3{
+	overflow: hidden;
+	font-family: Averia Serif Libre;
+	font-size: 30px;
+	text-align: left;
+	-ms-text-shadow:3px 3px 2px rgba(0,0,0,0.25);
+	-o-text-shadow:3px 3px 2px rgba(0,0,0,0.25);
+	-webkit-text-shadow:3px 3px 2px rgba(0,0,0,0.25);
+	-moz-text-shadow:3px 3px 2px rgba(0,0,0,0.25);
+	text-shadow:1px 1px 1px rgba(0,0,0,0.25);
+	/* color:#924224; */
+}
+
+h4{
+	overflow: hidden;
+	font-family: Bree Serif;
+	font-size: 28px;
+	text-align: left;
+	/* color:#3E3225; */
+}
+p{
+	overflow: hidden;
+	font-family: Averia Serif Libre;
+	font-size: 16px;
+	text-align: left;
+	color:#3E3225;
+}
+
+.header{
+	background:rgba(255,255,255,1);
+	color:#924224;
+}
+/* ---------------------informasi paten ------------------------ */
+
+/* tentang metabharata */
+#tentang{
+	background-image: url("../images/il-bg-tentang.svg");
+	height: 80%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.tentangMeta h2{
+	overflow: hidden;
+	text-align: left;
+	-ms-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	color:#FFFFFF;
+}
+
+.card-info{
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background:rgba(255,255,255,0.7);
+}
+
+.card-info p{
+	overflow: hidden;
+	font-family: Averia Serif Libre;
+	font-size: 16px;
+	text-align: center;
+	color:#924224;
+}
+
+.card-maps iframe{
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background:rgba(255,255,255,0.7);
+}
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #3E3225;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 35%;
+}
+
+.footer-distributed h3 {
+    color: #FFFFFF;
+}
+
+.footer-distributed h3 span {
+    color: #EF9344;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 30%;
+}
+
+.footer-distributed .footer-center i {
+    color: #ffffff;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #D58F3D;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #924224;
+}
+
+.footer-links a:hover {
+    color: #924224;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}  
